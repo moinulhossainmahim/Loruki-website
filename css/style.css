@@ -90,6 +90,11 @@ pre {
   padding: 0 40px;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 .flex {
   display: flex;
   justify-content: center;
