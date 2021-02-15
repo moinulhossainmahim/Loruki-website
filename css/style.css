@@ -84,6 +84,15 @@ img {
 	align-items: center;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
 /* Showcase */
 
 .showcase {
@@ -105,15 +114,6 @@ img {
 
 .showcase p {
 	margin: 20px 0;
-}
-
-.grid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 20px;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
 }
 
 .card {
@@ -148,7 +148,7 @@ img {
 	font-size: 16px;
 }
 
-.showcase-form input {
+.showcase-form input:focus {
 	outline: none;
 }
 
@@ -180,5 +180,203 @@ img {
 	background: #fff;
 	right: 0;
 	left: 0;
-	transform: skewY(-3deg);
+	transform: skewY(-3deg); 
 }
+
+/* Stats */
+.stats {
+	padding: 100px;
+}
+
+.grid-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.stats-heading {
+	max-width: 500px;
+    margin: 16px auto !important;
+}
+
+.stats .grid h3 {
+	font-size: 35px;
+}
+
+.stats .grid p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Margin */
+.my-1 {
+	margin: 16px 0;
+}
+
+.my-2 {
+	margin: 24px 0;
+}
+
+.my-3 {
+	margin: 32px 0;
+}
+
+.my-4 {
+	margin: 48px 0;
+}
+
+.my-5 {
+	margin: 64px 0;
+}
+
+.m-1 {
+	margin: 16px;
+}
+
+.m-2 {
+	margin: 24px;
+}
+
+.m-3 {
+	margin: 32px;
+}
+
+.m-4 {
+	margin: 48px;
+}
+
+.m-5 {
+	margin: 64px;
+}
+
+
+/* Padding */
+
+.py-1 {
+	padding: 16px 0;
+}
+
+.py-2 {
+	padding: 24px 0;
+}
+
+.py-3 {
+	padding: 32px 0;
+}
+
+.py-4 {
+	padding: 48px 0;
+}
+
+.py-5 {
+	padding: 64px 0;
+}
+
+.p-1 {
+	padding: 16px;
+}
+
+.p-2 {
+	padding: 24px;
+}
+
+.p-3 {
+	padding: 32px;
+}
+
+.p-4 {
+	padding: 48px;
+}
+
+.p-5 {
+	padding: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
